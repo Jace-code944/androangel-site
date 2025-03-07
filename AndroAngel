@@ -1,0 +1,54 @@
+6.80<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AndroAngel - Réparation informatique et mobile</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #007BFF; color: white; padding: 20px; text-align: center; }
+        nav { text-align: center; margin: 20px 0; }
+        nav a { margin: 0 15px; text-decoration: none; color: #007BFF; font-weight: bold; }
+        .container { width: 80%; margin: auto; padding: 20px; background: white; box-shadow: 0px 0px 10px rgba(0,0,0,0.1); }
+        footer { text-align: center; padding: 10px; background: #007BFF; color: white; margin-top: 20px; }
+        .logo { max-width: 150px; display: block; margin: 0 auto 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="AndroAngel.png" alt="Logo AndroAngel" class="logo">
+        <h1>AndroAngel</h1>
+        <p>Réparation d'ordinateurs et de smartphones</p>
+    </header>
+    <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#apropos">À propos</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container" id="accueil">
+        <h2>Bienvenue chez AndroAngel</h2>
+        <p>Nous réparons vos appareils avec expertise et rapidité.</p>
+    </div>
+    <div class="container" id="services">
+        <h2>Nos Services</h2>
+        <ul>
+            <li>Réparation d'ordinateurs</li>
+            <li>Réparation de smartphones</li>
+            <li>Maintenance et optimisation</li>
+        </ul>
+    </div>
+    <div class="container" id="apropos">
+        <h2>À propos de nous</h2>
+        <p>AndroAngel est une entreprise spécialisée dans la réparation et l'entretien de vos appareils électroniques.</p>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Email : contact@androangel.com</p>
+        <p>Téléphone : 077/434.86.80</p>
+    </div>
+    <footer>
+        &copy; 2025 AndroAngel - Tous droits réservés
+    </footer>
+</body>
+</html>
